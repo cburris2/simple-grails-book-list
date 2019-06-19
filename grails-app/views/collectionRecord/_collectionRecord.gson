@@ -1,0 +1,10 @@
+model {
+    CollectionRecord collectionRecord
+}
+json.collectionRecord {
+
+	uuid collectionRecord.uuid
+	configurations collectionRecord.configurations
+	iso_xml collectionRecord.iso_xml
+	last_updated collectionRecord.last_updated
+}

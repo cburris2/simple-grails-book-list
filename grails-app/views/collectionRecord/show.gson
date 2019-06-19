@@ -1,0 +1,4 @@
+model {
+    CollectionRecord collectionRecord
+}
+json g.render(template:"collectionRecord", model:[collectionRecord:collectionRecord])
